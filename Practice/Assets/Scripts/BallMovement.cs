@@ -18,4 +18,10 @@ public class BallMovement : MonoBehaviour {
 
 		BallBody.AddForce (move);
 	}
+	void OnTriggerEnter(Collider other){
+		if (other.gameObject.CompareTag ("TicTac")) 
+		{
+			other.gameObject.SetActive (false);
+		}
+	}
 }
