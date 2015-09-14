@@ -5,13 +5,13 @@ using UnityEngine.UI;
 public class BallMovement : MonoBehaviour {
 	private Rigidbody BallBody;
 	private int total;
-	public totalText;
+	public int speed;
 
 	// Use this for initialization
 	void Start () {
 		BallBody = GetComponent<Rigidbody> ();
 		total = 0;
-		totalText.text = "TicTacs: " + total.toString ();
+		//totalText.text = "TicTacs: " + total.toString ();
 	}
 	
 	// Update is called once per frame
