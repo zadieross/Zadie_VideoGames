@@ -11,7 +11,6 @@ public class BallMovement : MonoBehaviour {
 	void Start () {
 		BallBody = GetComponent<Rigidbody> ();
 		total = 0;
-		//totalText.text = "TicTacs: " + total.toString ();
 	}
 	
 	// Update is called once per frame
@@ -21,9 +20,9 @@ public class BallMovement : MonoBehaviour {
 
 		Vector3 move = new Vector3 (BallHorizontal, 0, BallVertical);
 
-		BallBody.AddForce (move);
+		BallBody.AddForce (move*speed);
 	}
-<<<<<<< HEAD
+
 	void OnTriggerEnter(Collider other){
 		if (other.gameObject.CompareTag ("TicTac")) 
 		{
@@ -31,6 +30,5 @@ public class BallMovement : MonoBehaviour {
 			total = total + 1;
 		}
 	}
-=======
->>>>>>> parent of 2d27058... TicTac Pick up
+
 }
