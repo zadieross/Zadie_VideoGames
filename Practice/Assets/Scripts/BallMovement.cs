@@ -23,6 +23,7 @@ public class BallMovement : MonoBehaviour {
 
 		BallBody.AddForce (move);
 	}
+<<<<<<< HEAD
 	void OnTriggerEnter(Collider other){
 		if (other.gameObject.CompareTag ("TicTac")) 
 		{
@@ -30,4 +31,6 @@ public class BallMovement : MonoBehaviour {
 			total = total + 1;
 		}
 	}
+=======
+>>>>>>> parent of 2d27058... TicTac Pick up
 }
