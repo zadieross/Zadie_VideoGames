@@ -14,6 +14,7 @@ public class BallMovement : MonoBehaviour {
 		BallBody = GetComponent<Rigidbody> ();
 		total = 0;
 		SetScoreText ();
+		WinText.text = "";
 	}
 	
 	// Update is called once per frame
@@ -37,6 +38,9 @@ public class BallMovement : MonoBehaviour {
 
 	void SetScoreText () {
 		Score.text = "Tic Tacs eaten: " + total.ToString ();
+		if (total >= 3){
+			WinText.text = "You Win!";
+		}
 	}
 
 }
