@@ -38,7 +38,7 @@ public class BallMovement : MonoBehaviour {
 
 	void SetScoreText () {
 		Score.text = "Tic Tacs eaten: " + total.ToString ();
-		if (total >= 3){
+		if (total >= 5){
 			WinText.text = "You Win!";
 		}
 	}
