@@ -6,11 +6,14 @@ public class BallMovement : MonoBehaviour {
 	private Rigidbody BallBody;
 	private int total;
 	public int speed;
+	public Text Score;
+	public Text WinText;
 
 	// Use this for initialization
 	void Start () {
 		BallBody = GetComponent<Rigidbody> ();
 		total = 0;
+		SetScoreText ();
 	}
 	
 	// Update is called once per frame
@@ -28,7 +31,12 @@ public class BallMovement : MonoBehaviour {
 		{
 			other.gameObject.SetActive (false);
 			total = total + 1;
+			SetScoreText();
 		}
+	}
+
+	void SetScoreText () {
+		Score.text = "Tic Tacs eaten: " + total.ToString ();
 	}
 
 }
