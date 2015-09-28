@@ -1,9 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BallMovement.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\SurvivalGameDemo\Assets\Scripts\PlayerMovement.cs">
     <Files>
-      <File FileName="Assets\Scripts\BallMovement.cs" Line="41" Column="17" />
-      <File FileName="Assets\Scripts\CameraBehavior.cs" Line="1" Column="1" />
+      <File FileName="..\SurvivalGameDemo\Assets\Scripts\PlayerMovement.cs" Line="25" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
