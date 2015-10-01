@@ -7,14 +7,16 @@ public class ZombunnyMovement : MonoBehaviour {
 	Animator bunnyAnimator;
 	public GameObject player;
 	public float movementSpeed = 4f;
+	NavMeshAgent nav;
 
 	// Use this for initialization
-	void Start () {
-	
+	void Awake () {
+		player = gameObject.FindGameObjectWithTag ("Player").transform;
+		nav = GetComponent <NavMeshAgent> ();
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-	
+		nav.SetDestination (player.position);
 	}
 }
