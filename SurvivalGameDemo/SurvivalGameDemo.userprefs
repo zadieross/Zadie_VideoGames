@@ -1,12 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EnemyHealth.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\FWTSimulator\FWTSimulator\Assets\Scripts\BonusWallTrigger.cs">
     <Files>
       <File FileName="SurvivalGameDemo.sln" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ZombunnyMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PlayerMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PlayerAttack.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\EnemyHealth.cs" Line="24" Column="1" />
+      <File FileName="Assets\Scripts\EnemyHealth.cs" Line="1" Column="1" />
+      <File FileName="..\..\FWTSimulator\FWTSimulator\Assets\Scripts\BonusWallTrigger.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
